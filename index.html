@@ -8,9 +8,11 @@
             width: 21cm;
             height: 29cm;
             margin: 20px;
-            hr{
-                border: 1px solid black;
-            }
+        } 
+        hr{
+            border: 1px solid black;
+            width: 500px;
+            margin-left: 0;
         }
         .header img{
             width:90px;
@@ -20,12 +22,18 @@
         }
         table{
             border-collapse: collapse;
-            width: 100%;
+            width: "100%"";
         }
-        table, th, td {
+        td {
             padding: 4px 15px 2px 0;
-            text-align: left;
             vertical-align: top;
+            text-align: left;
+        }
+        table td:first-child {
+            width: 280px;
+        }
+        td.kolom{
+            text-align: right;
         }
            
     </style>
@@ -43,7 +51,7 @@
     <table>
         <tr>
             <td>Telkom University Jakarta</td>
-            <td>Sep 2025 - sekarang</td>
+            <td class="kolom">Sep 2025 - sekarang</td>
         </tr>
     </table>
     <p><small>S1 - Sistem Informasi</small></p>
@@ -53,7 +61,7 @@
     <table>
         <tr>
             <td>Batik Bimi</td>
-            <td>juni 2025 - sekarang</td>
+            <td class="kolom">juni 2025 - sekarang</td>
         </tr>
     </table>
 </body>
